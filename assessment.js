@@ -10,6 +10,7 @@
             return;
         }
 
+        
         //診断結果エリアの作成
         removeAllChildren(resultDivided);
         const header = document.createElement('h3');
