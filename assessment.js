@@ -10,7 +10,6 @@
             return;
         }
 
-        
         //診断結果エリアの作成
         removeAllChildren(resultDivided);
         const header = document.createElement('h3');
@@ -67,7 +66,6 @@
         '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っています。',
         '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
         '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。'
-   　　　'{userName}のいいところは優しさです。{userName}の優しい雰囲気や立ち振舞に多くの人が癒やされています。'　　
     ];
 
 
@@ -102,7 +100,6 @@
         assessment('太郎') === assessment('太郎'), '同じ診断結果が出力されていません'
 
     );
-    
 
 
 })();
